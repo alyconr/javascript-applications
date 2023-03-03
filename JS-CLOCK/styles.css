@@ -22,7 +22,7 @@ body {
 .clock {
     width: 30rem;
     height: 30rem;
-    border: 20px solid white;
+    border: 20px solid rgb(16, 16, 222);
     border-radius: 50%;
     margin: 50px auto;
     position: relative;
@@ -39,7 +39,7 @@ body {
 
 .clock-face .hand {
     width: 50%;
-    height: 6px;
+    height: 10px;
     background: white;
     position: absolute;
     top: 50%;
