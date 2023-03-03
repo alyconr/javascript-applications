@@ -1,0 +1,82 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background: url(./images/hd-wallpaper-g70064d1ab_1280.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 2rem;
+}
+
+.key {
+    border : .4rem solid #000000;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+    background: rgba(146, 45, 45, 0.5);
+    color: #fff;
+    font-size:1.5rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.key:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transform: scale(1.1);
+    
+}
+
+kbd {
+
+    display: block;
+    padding: 0.5rem;
+    font-size: 4rem;
+}
+
+.sound {
+    display: block;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color : #fad106;
+
+}
+
+.playing {
+    transform: scale(1.1);
+  border-color: #f9810a;
+  box-shadow: 0 0 1rem #ffc600;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
