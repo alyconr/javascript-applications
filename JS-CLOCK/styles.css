@@ -1,0 +1,68 @@
+html {
+    font-size: 62.5%;
+    background: url(/images/energy-gae18bf3f6_1280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    
+}
+
+body {
+    margin: 0;
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.clock {
+    width: 30rem;
+    height: 30rem;
+    border: 20px solid white;
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.clock-face {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateY(-3px); /* account for the height of the clock hands */
+}
+
+.clock-face .hand {
+    width: 50%;
+    height: 6px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1); 
+}
+
+.clock-face .hand.hour-hand {
+    height: 10px;
+    background-color: black;
+}
+
+.clock-face .hand.min-hand {
+    height: 8px;
+    background-color: rgb(136, 101, 101);
+}
+
+.clock-face .hand.second-hand {
+    height: 4px;
+    background-color: rgb(196, 38, 38);
+}
+
+
+
